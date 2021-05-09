@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-sm {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.result {
+    display: flex;
+    flex-direction: row;
+    background-color: cornsilk;
+}
