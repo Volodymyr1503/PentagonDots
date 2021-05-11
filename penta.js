@@ -4,9 +4,9 @@ let resultLabel = document.querySelector("label");
 let result = document.querySelector("#res");
 
 /*Step 1. We should create a function to calculate number of dots in pentagong
-for 1, 2, 3... iterations. In simply words, our work looks like we should create an array with 
-iteration numbers, summ all them and multiply by 5 (because pentagon). Totally, we have 
-add our result to 1 (because we have always 1 dot in the pentagon center*/
+for 1, 2, 3... iterations. In simply words, our work looks like we should create an array (line 11) 
+with iteration numbers, summ all them and multiply by 5 (because pentagon). Totally, we have 
+add our result to 1 (because we have always 1 dot in the pentagon center). It is line 15*/
 const combinatoricsChallenge = num => {
     let pentaDots = [];
     for (let j = 0; j < num; j++) {
